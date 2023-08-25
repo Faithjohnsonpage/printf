@@ -5,6 +5,8 @@
 #include <string.h>
 
 int _printf(const char *format, ...);
-void intToStr(int num, char *str);
+int print_digit(long n, int base);
+int print_format(char specifier, va_list mynum);
+
 
 #endif
