@@ -3,6 +3,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <string.h>
+#include <stdlib.h>
 
 int _printf(const char *format, ...);
 int print_digit(long n, int base);
